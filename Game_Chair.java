@@ -3,12 +3,11 @@ package HW6;
 import java.util.Scanner;
 
 public class Game_Chair {
-
+	int i=0;
+	
 	Player player_2=new Player();
 	Player computer= new Player();
 	BetMore_Game Bet= new BetMore_Game();
-	
-	int i=0;
 
 	public void start() {
 		computer.setCardC(computer.play());
